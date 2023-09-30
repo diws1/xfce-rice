@@ -4,7 +4,9 @@
  /_//_/ __//____//____/ / __//__-_//_//_//____//___/
      /_/        by diws/_/                aestethic
 
- 
+Actually you can set the opacity and background color of the panel via this gtk.css file, but I didn't do that and chose the manual way instead. 
+So if when implementing the panel color looks a little messy, you can follow these instructions 
+
 Panel Settings
 	Top:
 	Row size: 23px
