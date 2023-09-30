@@ -11,21 +11,22 @@ Panel Settings
 	Length: 1114px
 	Fixed icon size: 13px
 	Background style: solid color
-		   color: #1b1b1b
+		   color: #1b1b1b opacity: 0
 
 	Clock Font: Terminus (TTF) Medium 9
-	      Format: "  %I:%M %p " (Icon from Font Awesome)	
+	      Format: " %I:%M %p "
 
-	Bottom:
+	Side:
 	Row size: 27px
 	Length: automatic
 	Icons: 20px
-	     : Gruvbox Plus Dark
+	     : Gruvbox Plus Dark (manual change)
 	Background style: solid color
 		   color: #1b1b1b opacity: 0
 Appereance
-	GTK-Theme: Materia Compact / Dark
-	Icons: Gruvbox Plus Dark
+	GTK-Theme: Materia Dark Compact
+	Window-manager-Theme: Ant Bloody
+	Icons: Papirus-Dark
 */
 
 
