@@ -232,6 +232,7 @@ Appereance
         border-top-right-radius: 4px;
 }
 
+/*Note: The launcher ID is obtained by hovering the mouse over the plugin in the panel properties*/
 /*Power*/
 #launcher-11 #launcher-arrow {
         background-color: #d3869b;
