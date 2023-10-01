@@ -6,3 +6,6 @@ Note: To see your modifications applied, you can reset the xfce4-panel process b
 my xfce desktop preview
 
 ![My Image](https://github.com/diws1/xfce/blob/main/xfce%20preview.png)
+![My Image](https://github.com/diws1/xfce/blob/main/panel%201.png)
+![My Image](https://github.com/diws1/xfce/blob/main/panel%202.png)
+
