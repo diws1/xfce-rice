@@ -33,10 +33,10 @@ Appereance
 
 
 .xfce4-panel {
-	border-bottom-left-radius: 4px;
+/*	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
+        border-top-right-radius: 4px; */
         font-family: 'Terminus (TTF)';
         font-size: 12px;
 	opacity: 1;
@@ -44,7 +44,7 @@ Appereance
 
 /*Whisker*/
 #whiskermenu-button {
-	background-color: #cc241d;
+	background: #cc241d;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
@@ -60,7 +60,7 @@ Appereance
 */
 
 #whiskermenu-button:hover {
-	background-color: #c5c8c6; opacity: 0.9;
+	background: #c5c8c6; opacity: 0.9;
 	color: #282828;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 0px;
@@ -70,26 +70,29 @@ Appereance
 
 /*Workspace*/
 #pager-4 #xfce-panel-toggle-button {
-        background-color: #98971a;
+        background: #98971a;
 	color: #f9f9f9;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
         border-top-right-radius: 4px;
+	margin-left: 4px;
 }
 
 #pager-4 #xfce-panel-toggle-button:checked {
-        background-color: #676767; opacity: 1;
+        background: #676767; opacity: 1;
 	color: #fafafa;
+	border-color: #676767;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
         border-top-right-radius: 4px;
+	margin-left: 4px;
 }
 
 
 #pager-4 #xfce-panel-toggle-button:hover {
-        background-color: #c5c8c6; opacity: 0.9;
+        background: #c5c8c6; opacity: 0.9;
 	color: #282828;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
@@ -97,11 +100,12 @@ Appereance
         border-top-right-radius: 4px;
 	margin-top: 2px;
 	margin-bottom: 2px;
+	margin-left: 4px;
 }
 
 /*Tasklist*/
 .xfce4-panel .tasklist .toggle {
-        background-color: #1b1b1b;
+        background: #1b1b1b;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
@@ -109,8 +113,9 @@ Appereance
 }
 
 .xfce4-panel .tasklist .toggle:checked {
-	background-color: #676767;
+	background: #676767;
 	color: #fafafa;
+	border-color: #676767;
 	border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
@@ -118,7 +123,7 @@ Appereance
 }
 
 .xfce4-panel .tasklist .toggle:hover {
-        background-color: #c5c8c6; opacity: 0.9;
+        background: #c5c8c6; opacity: 0.9;
 	color: #282828;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
@@ -128,7 +133,7 @@ Appereance
 
 /*Notification*/
 #xfce4-notification-plugin {
-        background-color: #458588;
+        background: #458588;
 	color: #D5D9D6;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 0px;
@@ -145,7 +150,7 @@ Appereance
 */
 
 #xfce4-notification-plugin:hover {
-        background-color: #c5c8c6; opacity: 0.9;
+        background: #c5c8c6; opacity: 0.9;
 	color: #282828;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
@@ -155,7 +160,7 @@ Appereance
 
 /*Sound*/
 #pulseaudio-button {
-        background-color: #458588;
+        background: #458588;
 	color: #D5D9D6;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
@@ -172,7 +177,7 @@ Appereance
 */
 
 #pulseaudio-button:hover {
-        background-color: #c5c8c6; opacity: 0.9;
+        background: #c5c8c6; opacity: 0.9;
 	color: #282828;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
@@ -182,7 +187,7 @@ Appereance
 
 /*Battery*/
 #xfce4-power-manager-plugin {
-        background-color: #458588;
+        background: #458588;
 	color: #D5D9D6;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 4px;
@@ -199,7 +204,7 @@ Appereance
 */
 
 #xfce4-power-manager-plugin:hover {
-        background-color: #c5c8c6; opacity: 0.9;
+        background: #c5c8c6; opacity: 0.9;
         color: #282828;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
@@ -209,7 +214,7 @@ Appereance
 
 /*Clock*/
 #clock-button {
-        background-color: #83a598;
+        background: #83a598;
 	color: #f9f9f9;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
@@ -226,8 +231,8 @@ Appereance
 */
 
 #clock-button:hover {
-        background-color: #c5c8c6; opacity: 0.9;
-	color: #282828 ;
+        background: #c5c8c6; opacity: 0.9;
+	color: #282828;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
@@ -237,7 +242,7 @@ Appereance
 /*Note: The launcher ID is obtained by hovering the mouse over the plugin in the panel properties*/
 /*Power*/
 #launcher-11 #launcher-arrow {
-        background-color: #d3869b;
+        background: #d3869b;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
@@ -253,8 +258,8 @@ Appereance
 */
 
 #launcher-11 #launcher-arrow:hover {
-        background-color: #c5c8c6; opacity: 0.9;
-        color: #282828 ;
+        background: #c5c8c6; opacity: 0.9;
+        color: #282828;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
@@ -264,7 +269,7 @@ Appereance
 /*another launcher*/ 
 
 #launcher-22 #launcher-arrow {
-        background-color: #282828;
+        background: #282828;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 0px;
         border-top-left-radius: 4px;
@@ -272,8 +277,8 @@ Appereance
 }
 
 #launcher-22 #launcher-arrow:hover {
-        background-color: #c5c8c6; opacity: 0.9;
-        color: #282828 ;
+        background: #c5c8c6; opacity: 0.9;
+        color: #282828;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
@@ -282,7 +287,7 @@ Appereance
 
 
 #launcher-23 #launcher-arrow {
-        background-color: #282828;
+        background: #282828;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
         border-top-left-radius: 0px;
@@ -290,8 +295,8 @@ Appereance
 }
 
 #launcher-23 #launcher-arrow:hover {
-        background-color: #c5c8c6; opacity: 0.9;
-        color: #282828 ;
+        background: #c5c8c6; opacity: 0.9;
+        color: #282828;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
@@ -300,7 +305,7 @@ Appereance
 
 
 #launcher-24 #launcher-arrow {
-        background-color: #282828;
+        background: #282828;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
         border-top-left-radius: 0px;
@@ -308,8 +313,8 @@ Appereance
 }
 
 #launcher-24 #launcher-arrow:hover {
-        background-color: #c5c8c6; opacity: 0.9;
-        color: #282828 ;
+        background: #c5c8c6; opacity: 0.9;
+        color: #282828;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
@@ -318,7 +323,7 @@ Appereance
 
 
 #launcher-25 #launcher-arrow {
-        background-color: #282828;
+        background: #282828;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 0px;
@@ -326,8 +331,8 @@ Appereance
 }
 
 #launcher-25 #launcher-arrow:hover {
-        background-color: #c5c8c6; opacity: 0.9;
-        color: #282828 ;
+        background: #c5c8c6; opacity: 0.9;
+        color: #282828;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
