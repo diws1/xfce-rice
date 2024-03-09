@@ -4,7 +4,7 @@
 <i><b> xfce4-panel -r </b></i>
 
 <b>Preview</b> \
-XFCE Aestethic
+<i>XFCE Aestethic</i>
 ![My Image](https://github.com/diws1/xfce/blob/main/screenshot/xfce%20aestethic.png)
 
 
