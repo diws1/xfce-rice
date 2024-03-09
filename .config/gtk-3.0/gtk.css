@@ -11,7 +11,7 @@ Panel Settings
 	Top:
 	Row size: 22px
 	Length: 1014px
-	Fixed icon size: 13px
+	Icons: 13px
 	Background style: solid color
 		   color: #1b1b1b opacity: 0
 
@@ -22,13 +22,12 @@ Panel Settings
 	Row size: 27px
 	Length: automatic
 	Icons: 20px
-	     : Gruvbox Plus Dark (manual change)
 	Background style: solid color
 		   color: #1b1b1b opacity: 0
 Appereance
-	GTK-Theme: Materia Dark Compact
+	GTK-Theme: Adwaita-Dark
 	Window-manager-Theme: Ant Bloody
-	Icons: Papirus-Dark
+	Icons: Papirus-Dark, Gruvbox Plus Dark (manual change) 
 */
 
 
