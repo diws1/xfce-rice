@@ -7,4 +7,7 @@
 <i>XFCE Aestethic</i>
 ![My Image](https://github.com/diws1/xfce/blob/main/screenshot/xfce%20aestethic.png)
 
+<i>XFCE Blumon</i>
+![My Image](https://github.com/diws1/xfce/blob/main/screenshot/xfce%20blumon.png)
+
 
