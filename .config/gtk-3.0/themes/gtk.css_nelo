@@ -8,17 +8,21 @@ if when implementing the panel color looks a little messy, you can follow these 
 
 Panel Settings
 	Top:
-	Row size: 4opx
-	Length: 1336px
-	Fixed icon size: 17px
-
-	Clock Font: Roboto Regular 9
+	Row size: 34px
+	Length: 1234px
+	Fixed icon size: 13px
+	Clock Font: Roboto Medium 7.5
 	      Format: " %I:%M %p "
 
+	Bottom:
+	Row size: 40px
+	Length: auto
+	Fixed icon size: 16px
+
 Appearance
-	Theme: Adwaita-Dark
-	Icons: Papirus-Dark, Gruvbox Plus Dark (for launcher)
-	WM Theme: Ant-Bloody
+	Theme: Sweet-Abar-Blue-Dark
+	Icons: Gruvbox Plus Dark
+	WM Theme: Sweet-mars
  */
 
 
