@@ -29,10 +29,34 @@ To see your modifications applied, you can reset the xfce4-panel process by typi
 xfce4-panel -r
 ```
 
->[!NOTE]
-> To see your modifications applied, you can reset the xfce4-panel process by typing the following command into a terminal :
+>[!IMPORTANT]
+> Some items on the panel may not change immediately. you need to read the instructions I wrote on each gtk.css theme in this repository, for example :
 ```
-xfce4-panel -r
+Panel Settings
+	Top:
+	Row size: 22px
+	Length: 1014px
+	Icons: 13px
+	Background style: solid color
+		   color: #1b1b1b opacity: 0
+
+	Clock Font: Terminus (TTF) Medium 9
+	      Format: " %I:%M %p "
+
+	Side:
+	Row size: 27px
+	Length: automatic
+	Icons: 20px
+	Background style: solid color
+		   color: #1b1b1b opacity: 0
+Appereance
+	GTK-Theme: Adwaita-Dark
+	Window-manager-Theme: Ant Bloody
+	Icons: Papirus-Dark, Gruvbox Plus Dark (manual change) 
+```
+and
+```
+/*Note: The launcher ID is obtained by hovering the mouse over the plugin in the panel properties*/
 ```
 
 ## Preview
