@@ -6,6 +6,9 @@ This repository is dominated by how to customize the xfce desktop, especially th
 ## How to customize xfce panel ?
 By default, to customize the xfce panel you only need to right click on the panel, then select Panel Preferences.\
 However, if you want to customize the xfce panel freely, you can create a [<b>gtk.css</b>](https://github.com/diws1/xfce-rice/blob/main/.config/gtk-3.0/gtk.css) file in the <i>~/.config/gtk-3.0/</i> folder.
+>[!NOTE]
+><i>gtk.css</i> file are like exterior paint. You need to arrange the items on your panels with the default panel settings, then gtk.css will color it
+
 ```
 sudo nano ~/.config/gtk-3.0/gtk.css
 ```
@@ -30,7 +33,7 @@ xfce4-panel -r
 ```
 
 >[!IMPORTANT]
-> Some items on the panel may not change immediately. you need to read the instructions I wrote on each gtk.css theme in this repository, for example :
+> Some items on the panel may not change immediately. You need to read the instructions I wrote on each gtk.css theme in this repository, for example :
 ```
 Panel Settings
 	Top:
