@@ -77,3 +77,7 @@ and
 ![My Image](https://github.com/diws1/xfce/blob/main/screenshot/xfce%20blumon.png)
 
 
+## Tips & Tricks
+
+
+
