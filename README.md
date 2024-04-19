@@ -5,7 +5,7 @@ This repository is dominated by how to customize the xfce desktop, especially th
 
 ## How to customize xfce panel ?
 By default, to customize the XFCE panel you only need to right click on the panel, then select Panel Preferences.\
-However, if you want to customize the XFCE panel freely, you can create a <b><i>gtk.css</i></b> file in the ~/.config/gtk-3.0/</b></i> folder.
+However, if you want to customize the XFCE panel freely, you can create a <b><i>gtk.css</i></b> file in the <b><i>~/.config/gtk-3.0/</b></i> folder.
 ```
 sudo nano ~/.config/gtk-3.0/gtk.css
 ```
