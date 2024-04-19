@@ -9,20 +9,25 @@ However, if you want to customize the xfce panel freely, you can create a [<b>gt
 ```
 sudo nano ~/.config/gtk-3.0/gtk.css
 ```
-then copy this [<b>gtk.css</b>](https://github.com/diws1/xfce-rice/blob/main/.config/gtk-3.0/gtk.css) file on your own.
+And copy this [<b>gtk.css</b>](https://github.com/diws1/xfce-rice/blob/main/.config/gtk-3.0/gtk.css) file on your own.
 
-Or you can clone this repository 
+
+Or you can clone this repository, with : 
 ```
 cd ~/
 git clone https://github.com/diws1/xfce-rice
 ```
-Go to xfce-rice directory, and copy the <b><i>gtk.css</i></b> file on your <b><i>~/.config/gtk-3.0/</b></i> folder
+Then go to xfce-rice directory, and copy the <b><i>gtk.css</i></b> file on your <b><i>~/.config/gtk-3.0/</b></i> folder.
 ```
 cd xfce-rice/
 cd .config/gtk-3.0/
 sudo cp -r gtk.css ~/.config/gtk-3.0/
 ```
 
+Apply the config by the typing the following command into a terminal : 
+```
+xfce4-panel -r
+```
 
 >[!NOTE]
 > To see your modifications applied, you can reset the xfce4-panel process by typing the following command into a terminal :
