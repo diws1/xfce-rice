@@ -9,6 +9,14 @@ However, if you want to customize the xfce panel freely, you can create a [<b>gt
 ```
 sudo nano ~/.config/gtk-3.0/gtk.css
 ```
+then copy this [<b>gtk.css</b>](https://github.com/diws1/xfce-rice/blob/main/.config/gtk-3.0/gtk.css) file on your own.
+
+or clone this repository 
+```
+cd ~/
+git clone https://github.com/diws1/xfce-rice
+```
+
 
 
 >[!NOTE]
