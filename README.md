@@ -21,7 +21,7 @@ Or you can clone this repository, with :
 cd ~/
 git clone https://github.com/diws1/xfce-rice
 ```
-Then go to xfce-rice directory, and copy the <i>gtk.css</i> file on your <i>~/.config/gtk-3.0/</i> folder.
+Then go to <i>xfce-rice</i> directory, and copy the <i>gtk.css</i> file on your <i>~/.config/gtk-3.0/</i> folder.
 ```
 cd xfce-rice/
 cd .config/gtk-3.0/
