@@ -16,7 +16,11 @@ or clone this repository
 cd ~/
 git clone https://github.com/diws1/xfce-rice
 ```
-
+```
+cd xfce-rice/
+cd .config/gtk-3.0/
+sudo cp -r gtk.css ~/.config/gtk-3.0/
+```
 
 
 >[!NOTE]
