@@ -36,6 +36,7 @@ xfce4-panel -r
 >[!IMPORTANT]
 > Some items on the panel may not change immediately. You need to read the instructions I wrote on each gtk.css theme in this repository, for example :
 ```
+/*
 Panel Settings
 	Top:
 	Row size: 22px
@@ -56,7 +57,8 @@ Panel Settings
 Appereance
 	GTK-Theme: Adwaita-Dark
 	Window-manager-Theme: Ant Bloody
-	Icons: Papirus-Dark, Gruvbox Plus Dark (manual change) 
+	Icons: Papirus-Dark, Gruvbox Plus Dark (manual change)
+*/
 ```
 and
 ```
