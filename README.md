@@ -2,9 +2,8 @@
 
 <img align="right" height="192" width="341" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20blumon.png" alt="image" />
 This repository is dominated by how to customize the xfce desktop, <s>especially the panels which can be much more flexible, but are not included in the default panel settings</s> various things that can be hacked in xfce desktop environtment will be explained here. There are many ways to customize the xfce desktop, and this repository is one of them while still prioritizing simplicity and efficiency of <b><i>ram</i></b> and <b><i>cpu</i></b> usage.
-<br />
+  
 # Table of Contents
-- Introduction
 - Panel
   - Restart panel
   - Replace panel
@@ -32,6 +31,20 @@ This repository is dominated by how to customize the xfce desktop, <s>especially
 - Screenshots
 - References
 
+## Panel
+By default, to customize the xfce panel you only need to right click on the panel, then select Panel Preferences.\
+However, if you want to customize the xfce panel freely, you can create a [<b>gtk.css</b>](https://github.com/diws1/xfce-rice/blob/main/.config/gtk-3.0/gtk.css) file in the <i>~/.config/gtk-3.0/</i> folder.
+>[!NOTE]
+><i>gtk.css</i> file are like exterior paint. You need to arrange the items on your panels with the default panel settings, then <i>gtk.css</i> will color it.
+
+### Restart panel
+The xfce panel can be restarted by running the following command in terminal, this will restart xfce panel with the changes made.
+```
+xfce4-panel -r
+```
+
+### Replace panel
+User can be replace default xfce panel with another panel or bar, for example polybar. To do this, we have two options:
 
 
 
