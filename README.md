@@ -24,7 +24,7 @@ This repository is dominated by how to customize the xfce desktop, <s>especially
 - [WINDOW MANAGER](https://github.com/diws1/xfce-rice?tab=readme-ov-file#window-manager)
   - [XFWM standalone](https://github.com/diws1/xfce-rice?tab=readme-ov-file#xfwm-standalone)
   - [Shortcut](https://github.com/diws1/xfce-rice?tab=readme-ov-file#shortcut)
-  - [Compositor]((https://github.com/diws1/xfce-rice?tab=readme-ov-file#compositor)
+  - [Compositor](https://github.com/diws1/xfce-rice?tab=readme-ov-file#compositor)
   - [Replace to another window manager](https://github.com/diws1/xfce-rice?tab=readme-ov-file#replace-to-another-window-manager)
   - [Tittle/button](https://github.com/diws1/xfce-rice?tab=readme-ov-file#title/button)
 
@@ -40,35 +40,111 @@ However, if you want to customize the xfce panel freely, you can create a [<b>gt
 >[!NOTE]
 ><i>gtk.css</i> file are like exterior paint. You need to arrange the items on your panels with the default panel settings, then <i>gtk.css</i> will color it.
 
-## Restart panel
+### Restart panel
 The xfce panel can be restarted by running the following command in terminal, this will restart xfce panel with the changes made.
 ```
 xfce4-panel -r
 ```
 
-## Styling
-## Transform
-## Using various icons
-## Fake effect in xfce panel
-## Global settings
-## Whisker menu
-## Workspace styling
-## Window button
-## Notification Plugin
-## Pulse Audio Plugin
-## Battery Plugin
-## Date/Clock
-## Another Launcher
+### Styling
+```
+... {
+	background: #c5c8c6; opacity: 0.9;
+	color: #282828;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 4px;
+}
+```
+### Transform
+```
+#xfce4-power-manager-plugin image {
+        -gtk-icon-transform: scale(0.4) rotate(90deg); margin:-10px;
+}
+```
+### Using various icons
+```
+#xfce4-power-manager-plugin image {
+	-gtk-icon-theme: 'Tela-circle';
+}
+```
+```
+#xfce4-notification-plugin image {
+	-gtk-icon-theme: 'Tela-circle';
+
+```
+### Fake effect in xfce panel
+```
+/*Window Buttons*/
+.xfce4-panel .tasklist .toggle {
+	...
+        margin: 5px;
+        padding: 5px;
+}
+.xfce4-panel .tasklist .toggle:checked {
+	...
+	margin: 2px;
+	padding: 0px;
+}
+.xfce4-panel .tasklist .toggle:hover {
+	...
+        margin: 4px;
+        padding: 0px;
+}
+```
+```
+.tasklist .toggle image {
+        -gtk-icon-transform: scale(0.5);
+}
+.tasklist .toggle:checked image {
+        -gtk-icon-transform: scale(0.9);
+}
+.tasklist .toggle:hover image {
+        -gtk-icon-transform: scale(0.8);
+}
+```
+
+### Global settings
+```
+.xfce4-panel {
+	background: #010101;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        font-family: 'Roboto Regular';
+        font-size: 12px;
+	opacity: 1;
+} 
+```
+```
+.xfce4-panel {
+        font-family: 'Roboto Regular';
+        font-size: 10px;
+} 
+```
+
+### Whisker menu
+### Workspace styling
+### Window button
+### Notification Plugin
+### Pulse Audio Plugin
+### Battery Plugin
+### Date/Clock
+### Another Launcher
 
 ## WINDOW MANAGER
-## XFWM standalone
-## Shortcut
-## Compositor
-## Replace to another window manager
-## Tittle/button
+### XFWM standalone
+### Shortcut
+### Compositor
+### Replace to another window manager
+### Tittle/button
 
 ## XFCE TERMINAL
-## Adding new theme 
+### Adding new theme 
 
 ## SCREENSHOTS
 
