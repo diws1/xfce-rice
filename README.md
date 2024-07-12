@@ -376,8 +376,11 @@ xfce4-panel -r
 ## SCREENSHOTS
 <p align="center">
 <img height="192" width="341" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20nelo.png" />
+	nelo
 <img height="192" width="341" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20aestethic.png" />
+	aestethic
 <img height="192" width="341" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20blumon.png" />
+	blumon
 </p>
 
 ## REFERENCES
