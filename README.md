@@ -374,9 +374,11 @@ xfce4-panel -r
 ### Adding new theme 
 
 ## SCREENSHOTS
-<img align="center" height="192" width="341" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20nelo.png" alt="image" />
-<img align="center" height="192" width="341" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20aestethic.png" alt="image" />
-<img align="center" height="192" width="341" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20blumon.png" alt="image" />
+<p align="center">
+<img height="192" width="341" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20nelo.png" />
+<img height="192" width="341" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20aestethic.png" />
+<img height="192" width="341" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20blumon.png" />
+</p>
 
 ## REFERENCES
 
