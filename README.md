@@ -10,6 +10,7 @@ This repository is dominated by how to customize the xfce desktop, <s>especially
   - [Transform](https://github.com/diws1/xfce-rice?tab=readme-ov-file#transform)
   - [Using various icons](https://github.com/diws1/xfce-rice?tab=readme-ov-file#using-various-icons)
   - [Fake effect in xfce panel](https://github.com/diws1/xfce-rice?tab=readme-ov-file#fake-effect-in-xfce-panel)
+  - [Launcher ID](https://github.com/diws1/xfce-rice?tab=readme-ov-file#launcher-id)
   - [Global settings](https://github.com/diws1/xfce-rice?tab=readme-ov-file#global-settings)
   - [Whisker menu](https://github.com/diws1/xfce-rice?tab=readme-ov-file#whisker-menu)
   - [Workspace styling](https://github.com/diws1/xfce-rice?tab=readme-ov-file#workspace-styling)
@@ -107,6 +108,8 @@ xfce4-panel -r
 }
 ```
 
+### Launcher ID
+
 ### Global settings
 ```
 .xfce4-panel {
@@ -128,13 +131,237 @@ xfce4-panel -r
 ```
 
 ### Whisker menu
+```
+/*Whisker Menu*/
+#whiskermenu-button {
+        margin: 4px;
+}
+#whiskermenu-button:hover {
+	background: #c5c8c6; opacity: 0.9;
+	color: #282828;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 4px;
+}
+#whiskermenu-button image {
+	-gtk-icon-theme: 'Tela-circle';
+        -gtk-icon-transform: scale(0.8); margin: -10px;
+}
+```
+
 ### Workspace styling
+```
+/*Workspace*/
+#pager-32 #xfce-panel-toggle-button {
+	color: #f9f9f9;
+	margin: 4px;
+	padding: 2px;
+}
+#pager-32 #xfce-panel-toggle-button:checked {
+        background: #c5c8c6; opacity: 0.5;
+	color: #282828;
+	border-color: #c5c8c6;
+	border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding: 2px;
+}
+#pager-32 #xfce-panel-toggle-button:hover {
+        background: #c5c8c6; opacity: 0.9;
+	color: #282828;
+	border-color: #c5c8c6;
+	border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+	margin-top: 5px;	
+	margin-bottom: 10px;
+	padding: 2px;
+}
+```
+
 ### Window button
+```
+/*Window Buttons*/
+.xfce4-panel .tasklist .toggle {
+        background: #c5c8c6; opacity: 0.9;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 5px;
+        padding: 5px;
+}
+.xfce4-panel .tasklist .toggle:checked {
+        background: #c5c8c6; opacity: 0.9;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+	margin: 2px;
+	padding: 0px;
+}
+.xfce4-panel .tasklist .toggle:hover {
+        background: #c5c8c6; opacity: 0.9;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 4px;
+        padding: 0px;
+}
+.tasklist .toggle image {
+        -gtk-icon-transform: scale(0.5);
+}
+.tasklist .toggle:checked image {
+        -gtk-icon-transform: scale(0.9);
+}
+.tasklist .toggle:hover image {
+        -gtk-icon-transform: scale(0.8);
+}
+```
+
 ### Notification Plugin
+```
+/*Notification*/
+#xfce4-notification-plugin {
+	color: #f9f9f9;
+        margin: 4px;
+	padding: 5px;
+}
+#xfce4-notification-plugin:hover {
+        background: #c5c8c6; opacity: 0.9;
+	color: #282828;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 4px;
+        padding: 5px;
+}
+#xfce4-notification-plugin image {
+	-gtk-icon-theme: 'Tela-circle';
+        -gtk-icon-transform: scale(0.4); margin: -10px;
+}
+```
+
 ### Pulse Audio Plugin
+```
+/*Sound*/
+#pulseaudio-button {
+	color: #f9f9f9;
+        margin: 4px;
+        padding: 5px;
+}
+#pulseaudio-button:hover {
+        background: #c5c8c6; opacity: 0.9;
+	color: #282828;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 4px;
+        padding: 5px;
+}
+#pulseaudio-button image {
+	-gtk-icon-theme: 'Tela-circle';
+        -gtk-icon-transform: scale(0.4); margin: -10px;
+}
+```
+
 ### Battery Plugin
+```
+/*Battery*/
+#xfce4-power-manager-plugin {
+	color: #f9f9f9;
+        margin: 4px;
+        padding: 5px;
+}
+#xfce4-power-manager-plugin:hover {
+        background: #c5c8c6; opacity: 0.9;
+        color: #282828;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 4px;
+        padding: 5px;
+}
+#xfce4-power-manager-plugin image {
+	-gtk-icon-theme: 'Tela-circle';
+        -gtk-icon-transform: scale(0.4) rotate(90deg); margin:-10px;
+}
+```
+
 ### Date/Clock
+```
+/*Clock*/
+#clock-button {
+	color: #f9f9f9;
+        margin: 4px;
+        padding: 5px;
+}
+
+#clock-button:hover {
+        background: #c5c8c6; opacity: 0.9;
+	color: #282828 ;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 4px;
+        padding: 5px;
+}
+```
+
 ### Another Launcher
+```
+#launcher-10 #launcher-arrow:hover {
+        background: #c5c8c6; opacity: 0.9;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 2px; 
+}
+#launcher-10 image {
+	-gtk-icon-theme: 'Tela-circle'; 
+}
+#launcher-10 #launcher-arrow:hover image {
+        -gtk-icon-transform: scale(0.7); 
+}
+
+
+#launcher-15 #launcher-arrow:hover {
+        background: #c5c8c6; opacity: 0.9; 
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 2px; 
+}
+#launcher-15 image {
+	-gtk-icon-theme: 'Tela-circle'; 
+}
+#launcher-15 #launcher-arrow:hover image {
+        -gtk-icon-transform: scale(0.7); 
+}
+```
 
 ## WINDOW MANAGER
 ### XFWM standalone
@@ -147,6 +374,14 @@ xfce4-panel -r
 ### Adding new theme 
 
 ## SCREENSHOTS
+<i>Nelo</i>
+![My Image](https://github.com/diws1/xfce/blob/main/screenshot/xfce%20nelo.png)
+
+<i>Aestethic</i>
+![My Image](https://github.com/diws1/xfce/blob/main/screenshot/xfce%20aestethic.png)
+
+<i>Blumon</i>
+![My Image](https://github.com/diws1/xfce/blob/main/screenshot/xfce%20blumon.png)
 
 ## REFERENCES
 
