@@ -21,16 +21,18 @@ This repository is dominated by how to customize the xfce desktop, <s>especially
   - [Another Launcher](https://github.com/diws1/xfce-rice?tab=readme-ov-file#another-launcher)
   - [Replace to another panel](https://github.com/diws1/xfce-rice?tab=readme-ov-file#replace-to-another-panel)
 
-- WINDOW MANAGER
-  - XFWM standalone
-  - Shortcut
-  - Compositor
-  - Replace to another window manager
-  - Tittle/button
-- XFCE TERMINAL
-  - Adding new theme 
-- SCREENSHOTS
-- REFERENCES
+- [WINDOW MANAGER](https://github.com/diws1/xfce-rice?tab=readme-ov-file#window-manager)
+  - [XFWM standalone](https://github.com/diws1/xfce-rice?tab=readme-ov-file#xfwm-standalone)
+  - [Shortcut](https://github.com/diws1/xfce-rice?tab=readme-ov-file#shortcut)
+  - [Compositor]((https://github.com/diws1/xfce-rice?tab=readme-ov-file#compositor)
+  - [Replace to another window manager](https://github.com/diws1/xfce-rice?tab=readme-ov-file#replace-to-another-window-manager)
+  - [Tittle/button](https://github.com/diws1/xfce-rice?tab=readme-ov-file#title/button)
+
+- [XFCE TERMINAL](https://github.com/diws1/xfce-rice?tab=readme-ov-file#xfce-terminal)
+  - [Adding new theme](https://github.com/diws1/xfce-rice?tab=readme-ov-file#adding-new-theme)
+
+- [SCREENSHOTS](https://github.com/diws1/xfce-rice?tab=readme-ov-file#screenshots)
+- [REFERENCES](https://github.com/diws1/xfce-rice?tab=readme-ov-file#references)
 
 ## XFCE PANEL
 By default, to customize the xfce panel you only need to right click on the panel, then select Panel Preferences.\
@@ -38,35 +40,35 @@ However, if you want to customize the xfce panel freely, you can create a [<b>gt
 >[!NOTE]
 ><i>gtk.css</i> file are like exterior paint. You need to arrange the items on your panels with the default panel settings, then <i>gtk.css</i> will color it.
 
-#### Restart panel
+## Restart panel
 The xfce panel can be restarted by running the following command in terminal, this will restart xfce panel with the changes made.
 ```
 xfce4-panel -r
 ```
 
-#### Styling
-#### Transform
-#### Using various icons
-#### Fake effect in xfce panel
-#### Global settings
-#### Whisker menu
-#### Workspace styling
-#### Window button
-#### Notification Plugin
-#### Pulse Audio Plugin
-#### Battery Plugin
-#### Date/Clock
-#### Another Launcher
+## Styling
+## Transform
+## Using various icons
+## Fake effect in xfce panel
+## Global settings
+## Whisker menu
+## Workspace styling
+## Window button
+## Notification Plugin
+## Pulse Audio Plugin
+## Battery Plugin
+## Date/Clock
+## Another Launcher
 
 ## WINDOW MANAGER
-#### XFWM standalone
-#### Shortcut
-#### Compositor
-#### Replace to another window manager
-#### Tittle/button
+## XFWM standalone
+## Shortcut
+## Compositor
+## Replace to another window manager
+## Tittle/button
 
 ## XFCE TERMINAL
-#### Adding new theme 
+## Adding new theme 
 
 ## SCREENSHOTS
 
