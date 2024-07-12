@@ -1,8 +1,6 @@
-<div align=center>
 # XFCE Customization Guide 
-	</div>
 
-<img align="right" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20blumon.png" alt="image" />
+<img align="right" height="128" width="227" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20blumon.png" alt="image" />
 This repository is dominated by how to customize the xfce desktop, <s>especially the panels which can be much more flexible, but are not included in the default panel settings</s> various things that can be hacked in xfce desktop environtment will be explained here. 
 
 
